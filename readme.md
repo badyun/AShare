@@ -67,12 +67,12 @@ JSON.parse(localStorage.getItem('token')).refresh_token
 
 #win版本下载地址：
 
-https://aliyundrive.icu/file/9718713d5083490d97b70c66c4ef0df3/604f1c3cf230ec0d137a4dfba998d939b069d45e/AShare.exe
+https://one.blob.core.chinacloudapi.cn/video/AShare.exe
 
 
 #linux版本下载地址：
 
-https://aliyundrive.icu/file/9718713d5083490d97b70c66c4ef0df3/604f1c3ca76c2f890b2348b780d06d170e73548f/AShare
+https://one.blob.core.chinacloudapi.cn/video/AShare
 
 ```
 
