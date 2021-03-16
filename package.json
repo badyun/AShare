@@ -1,0 +1,46 @@
+{
+  "name": "AShare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "pkg-win": "pkg -t win package.json",
+    "pkg-linux": "pkg -t linux package.json"
+  },
+  "pkg": {
+    "assets": [
+      "public/*",
+      "public/**/**/*"
+    ],
+    "scripts": [
+      "public/static/js/*.js"
+    ],
+    "targets": [
+      "node14"
+    ]
+  },
+  "author": "app@vx.fyi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "random-string": "^0.2.0",
+    "request": "^2.88.0",
+    "request-ip": "^2.1.3",
+    "superagent": "^5.0.5"
+  },
+  "devDependencies": {
+    "portfinder": "^1.0.28"
+  }
+}
