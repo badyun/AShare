@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "pkg-win": "pkg -t win package.json",
-    "pkg-linux": "pkg -t linux package.json"
+    "pkg-linux": "pkg -t linux package.json",
+    "build": "pkg . -t node12-win-x64 --output build/AShare_windows_amd64.exe && pkg . -t node12-macos-x64 --output build/AShare_macos_amd64 && pkg . -t node12-linux-x64 --output build/AShare_linux_amd64"
   },
   "pkg": {
     "assets": [
