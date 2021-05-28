@@ -71,7 +71,7 @@ module.exports = class {
     }
 
     // 列出文件
-    async list(parent_file_id = 'root', limit = 1000, order_by = 'name', order_direction = 'ASC', marker = null, list = []) {
+    async list(parent_file_id = 'root', limit = 200, order_by = 'name', order_direction = 'ASC', marker = null, list = []) {
         let s = await this.http('https://api.aliyundrive.com/v2/file/list', {
             drive_id: this.info.default_drive_id,
             fields: "*",
