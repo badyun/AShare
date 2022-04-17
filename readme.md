@@ -171,4 +171,4 @@ pm2 log AShare
 ![1.png](https://sf1-scmcdn-tos.pstatp.com/obj/ad-tetris-site/file/1650184041026/0e048fc02ead2bc9f157ab966ed9c49b)
 
 
-### 如果要使用443或者80啥的，就自己去设置下反代
+### 如果要使用443或者80啥的，就自己去设置下反代吧
