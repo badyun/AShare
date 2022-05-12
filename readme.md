@@ -8,7 +8,7 @@
 ## 安装注意事项
 如果直链作为第三方资源站的引用，需要在资源站的头部加上如下meta
 ```
-<meta name=referrer content=never>
+<meta name="referrer" content="never">
 ```
 
 ## 全新安装的话，参考下面的过程
